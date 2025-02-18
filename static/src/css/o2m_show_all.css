@@ -1,0 +1,7 @@
+/* style of the widget */
+.show_btn_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 20px;
+}

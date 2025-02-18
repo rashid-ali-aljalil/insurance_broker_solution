@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+    <t t-name="O2mShowAll" t-inherit-mode="primary" t-inherit="web.X2ManyField" owl="1">
+        <xpath expr="//div[hasclass('o_x2m_control_panel')]" position="before">
+            <div class="show_btn_container" >
+                <button t-if="showAll" t-on-click="showAllRecords" class="btn btn-primary">
+                    Show All
+                </button>
+                <button t-if="showLess" t-on-click="showLimitedRecords" class="btn btn-primary">
+                    Show Less
+                </button>
+            </div>
+        </xpath>
+    </t>
+</templates>
+
